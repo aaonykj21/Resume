@@ -102,7 +102,63 @@ function App() {
               </ul>
             </div>
           </div>
-          <div className="right-container"></div>
+          <div className="right-container">
+            <div className="Edu">
+              <h3>EDUCATION</h3>
+              <p className="university">Silpakorn University</p>
+              <p className="province">Nakhonpathom, Thailand</p>
+              <div className="gpa">
+                <ul>
+                  <li>Computer Science</li>
+                  <li>GPA 3.23 (5 semesters)</li>
+                </ul>
+              </div>
+              <p className="school">Nawaminthrachinuthit Satriwitthaya Phutthamonthon School</p>
+              <p className="province">Bangkok, Thailand</p>
+              <div className="gpa">
+                <ul>
+                  <li>GPA 3.77</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <h3>PROJECT</h3>
+              <div className="project">
+                <ul>
+                  <li>Human computer interaction and
+                    user experience design project (Sep - Oct 2024)</li>
+                  <p>Interviews were conducted with individuals who had previously used
+                    food court services to identify pain points. These issues were resolved
+                    by designing a mobile app in Figma, ensuring it is user-friendly and
+                    meets user needs effectively.</p>
+                  <li>Hand gestures recognition using 21 points coordinates
+                    with Machine Learning (Aug - Oct 2024)
+                  </li>
+                  <p>A dataset of 4,000 collected images was used to extract the
+                    coordinates of 21 hand points from the images. The data was then
+                    used to train various models.
+                  </p>
+                  <li>Web Application Development (Mar - Apr 2024)</li>
+                  <p>Developed a web application for online order management using the
+                    PHP language(backend), JavaScript and CSS(frontend), and connected
+                    it to an SQL database to ensure the functionality of various features.
+                  </p>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <h3>EXTRACURRICULAR ACTIVITIES</h3>
+              <div className="activities">
+                <ul>
+                  <li>AUCC (Oct 2024)</li>
+                  <p>An article on hand gesture recognition using 21-point coordinates
+                    with machine learning was written in collaboration with four other
+                    LANGUAGE team members. </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </>
