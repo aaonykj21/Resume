@@ -102,6 +102,19 @@ function App() {
               </ul>
             </div>
           </div>
+          <div className="middle">
+                <div className="one">
+                  <p>01</p>
+                </div>
+                <div className="line1"></div>
+                <div className="two">
+                  <p>02</p>
+                </div>
+                <div className="line2"></div>
+                <div className="three">
+                  <p>03</p>
+                </div>
+          </div>
           <div className="right-container">
             <div className="Edu">
               <h3>EDUCATION</h3>
@@ -122,8 +135,8 @@ function App() {
               </div>
             </div>
             <div>
+            <div className="project">
               <h3>PROJECT</h3>
-              <div className="project">
                 <ul>
                   <li>Human computer interaction and
                     user experience design project (Sep - Oct 2024)</li>
@@ -147,8 +160,8 @@ function App() {
               </div>
             </div>
             <div>
+            <div className="activities">
               <h3>EXTRACURRICULAR ACTIVITIES</h3>
-              <div className="activities">
                 <ul>
                   <li>AUCC (Oct 2024)</li>
                   <p>An article on hand gesture recognition using 21-point coordinates
